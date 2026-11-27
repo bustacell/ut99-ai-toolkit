@@ -1,0 +1,34 @@
+# ONE TAKE - CTF-((RURU))Clay3_03-10_00-04-43.dem, 544.0 .. 599.5 (demo s). YourNick = 4, Player77 = 15.
+# Each line: start=<demo s the rig takes over> blend=<transition demo s> [whip=<deg>] <ddcam args>. dt0 defaults to start.
+# whip= makes the transition a whip-pan (hidden cut) instead of a crossfade: used for respawns, where a
+# crossfade would fly the camera through walls (v1: void frames at 555.7 / 561.7 / 580.7).
+# 1 high crane over mid, pushes in behind YourNick
+start=544.0 blend=0 mode=follow tgt=4 dist=900 h=650 lead=300 fov=95 lag=0.9
+start=544.4 blend=1.3 mode=follow tgt=4 dist=260 h=80 lead=200 fov=95 lag=0.85
+# YourNick dies in the air (546.17): linger on the gibs
+start=546.2 blend=0.6 mode=orbit p=410,71,330 r=240 h=50 a0=200 w=30 lag=0.8 fov=90
+# respawn 547.38: whip to him; Double Kill 548.83, kills 551.6 / 552.3, flag 553.27
+start=547.2 blend=0.5 whip=300 mode=follow tgt=4 dist=260 h=90 lead=200 fov=95 lag=0.85
+# dies with the flag 554.08
+start=554.1 blend=0.5 mode=orbit p=-309,-1103,70 r=230 h=60 a0=90 w=-30 lag=0.8 fov=90
+# respawn 555.32: Double 558.68, flag 559.9, Multi 559.98
+start=555.15 blend=0.5 whip=-300 mode=follow tgt=4 dist=260 h=90 lead=200 fov=95 lag=0.85
+start=560.4 blend=0.5 mode=orbit p=-580,-953,70 r=230 h=60 a0=0 w=30 lag=0.8 fov=90
+# respawn 561.35: Double 563.6, Multi 564.78, MEGA 565.93
+start=561.2 blend=0.5 whip=300 mode=follow tgt=4 dist=250 h=90 lead=200 fov=95 lag=0.85
+# Player77 kills YourNick 566.38 and goes on an Ultra Kill rampage: the camera hands over to Player77
+start=566.4 blend=1.4 mode=orbit tgt=15 r=250 h=90 a0=150 w=14 lag=0.85 fov=95
+# Player77's spree ends 574.22: back to YourNick (revenge on Player77 577.18, flag 577.75)
+start=574.25 blend=0.6 whip=300 mode=follow tgt=4 dist=260 h=100 lead=200 fov=95 lag=0.85
+# fast-forward section (ramp 2.5x): flag dropped / death 579.57, respawn 580.74, death 583.06, respawn 584.26
+start=579.6 blend=0.6 mode=orbit p=-560,-950,60 r=240 h=50 a0=60 w=35 lag=0.8 fov=90
+start=580.5 blend=0.9 whip=-300 mode=follow tgt=4 dist=260 h=90 lead=200 fov=95 lag=0.85
+start=583.1 blend=0.6 mode=orbit p=239,-10,400 r=260 h=40 a0=0 w=40 lag=0.8 fov=90
+start=584.0 blend=0.8 whip=300 mode=follow tgt=4 dist=250 h=90 lead=200 fov=95 lag=0.85
+# triple 588.07, flag 589.28, Multi 589.64, Mega 590.94, ULTRA 591.74
+# MONSTER KILL 593.03: ride the ball (slow motion 0.15x)
+start=592.45 blend=0.4 mode=ball ballby=4 bp=-120,-525,249 dist=220 h=50 lag=0.6 fov=100
+# run home with the flag, cap 596.89
+start=593.55 blend=1.0 mode=follow tgt=4 dist=250 h=70 side=90 lead=250 fov=95 lag=0.85
+# crane up over the capture
+start=596.7 blend=2.2 mode=dolly p=560,1000,180 p2=420,760,900 at=520,1150,80 dur=3 fov=90 lag=0.85

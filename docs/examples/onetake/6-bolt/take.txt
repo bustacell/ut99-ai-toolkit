@@ -1,0 +1,24 @@
+# ONE TAKE VI - DemosArchive12\CTF-Bolt_HE_08-05_23-42-12.dem, 994.2 .. 1039.5. YourNick = 9 (red).
+# Bases: red (own) 577,-1344,-293; blue -576,1346,-294. Respawn 994.1, 0 deaths until the end, all victims human.
+# 995.50 kill, 1000.81 moving combo (ball 1000.26 -> 1001.06, shooter moved 693 uu across and 256 down), flag 1002.22,
+# kills 1005.87 / 1009.04 / 1011.05 (spree), CAPTURE 1011.26, 1012.24 kill, back across, kills 1020.13 / 1022.50,
+# flag again 1028.40, kill 1029.66, CAPTURE 1036.84.
+start=994.2 blend=0 mode=follow tgt=9 dist=300 h=140 lead=300 fov=95 lag=0.85 wide=60
+# the moving combo: ride the ball, slow motion
+start=999.9 blend=0.4 mode=ball ballby=9 bp=-266,1240,-17 dist=220 h=50 lag=0.6 fov=100
+# flag grab 1
+start=1001.5 blend=0.8 mode=orbit tgt=9 r=260 h=110 a0=200 w=30 lag=0.85 fov=95 wide=60
+# carry 1
+start=1003.2 blend=1.0 mode=follow tgt=9 dist=300 h=130 lead=300 fov=95 lag=0.85 wide=60
+# capture 1: close circle
+start=1010.3 blend=0.9 mode=orbit tgt=9 r=250 h=90 a0=0 w=-35 lag=0.85 fov=95 wide=60
+# back across the map
+start=1012.2 blend=1.2 mode=follow tgt=9 dist=240 h=110 lead=280 fov=95 lag=0.75 wide=60
+# flag grab 2
+start=1027.4 blend=0.8 mode=orbit tgt=9 r=260 h=110 a0=120 w=30 lag=0.85 fov=95 wide=60
+# carry 2: wide from the side
+start=1029.0 blend=1.0 mode=follow tgt=9 dist=300 h=130 side=120 lead=300 fov=100 lag=0.85 wide=60
+# capture 2: close circle
+start=1036.0 blend=0.9 mode=orbit tgt=9 r=250 h=90 a0=300 w=-35 lag=0.85 fov=95 wide=60
+# rise over the red flag base
+start=1037.4 blend=1.5 mode=orbit p=577,-1344,-280 r=280 h=220 a0=40 w=18 lag=0.88 fov=95 wide=60

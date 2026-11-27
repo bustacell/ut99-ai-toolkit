@@ -1,0 +1,138 @@
+{
+ "film": "HEAD SHOT (2026-11-11): 13 sniper headshots by the author, 90.8 s, rated 'Looks great' after one review round",
+ "music": {
+  "file": "Phantom.it",
+  "bar": 2.162,
+  "drop": 27.612,
+  "note": "bar measured from the audio by onset autocorrelation (the beat tracker drifted 0.2 s); drop = the downbeat where the track kicks in"
+ },
+ "introBars": 2,
+ "outroBars": 3,
+ "shots": [
+  {
+   "id": "s01",
+   "bars": [
+    1,
+    2,
+    1
+   ],
+   "cam": "classic",
+   "gore": 2
+  },
+  {
+   "id": "s05",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "rider"
+  },
+  {
+   "id": "s02",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "duel"
+  },
+  {
+   "id": "s04",
+   "bars": [
+    1,
+    2,
+    1
+   ],
+   "cam": "classic",
+   "side": 180
+  },
+  {
+   "id": "s06",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "rider"
+  },
+  {
+   "id": "s03",
+   "bars": [
+    1,
+    2,
+    1
+   ],
+   "cam": "classic",
+   "side": 180,
+   "note": "right side of the shooter = inside a wall (black)"
+  },
+  {
+   "id": "s07",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "classic",
+   "note": "replaced s13 (air-to-air): its victim was a Skaarj trooper and kept its head (before its Dead5 pose was known)"
+  },
+  {
+   "id": "s08",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "rider"
+  },
+  {
+   "id": "s15",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "classic"
+  },
+  {
+   "id": "s09",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "classic"
+  },
+  {
+   "id": "s14",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "rider"
+  },
+  {
+   "id": "s11",
+   "bars": [
+    2,
+    4,
+    1
+   ],
+   "cam": "classic",
+   "gore": 2,
+   "lead": "reveal",
+   "note": "finale (200 m): the first-person lead-in was a wall with a window slit, so it is a reverse reveal"
+  },
+  {
+   "id": "s10",
+   "bars": [
+    0.5,
+    1,
+    0.5
+   ],
+   "cam": "rider"
+  }
+ ]
+}

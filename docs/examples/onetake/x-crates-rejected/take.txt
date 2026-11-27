@@ -1,0 +1,33 @@
+# ONE TAKE III - CTF-2on2-Crates2022_01-18_01-41-56.dem (20 players), 416.8 .. 475.6. YourNick = 8.
+# Chain 1: 417.5-430.3, 16 kills (Ultra/Monster/Ludicrous at 423.33, HOLY SHIT 425.54 .. 430.29).
+# 431-443.7 fast forward 3x (deaths 433.86 / 436.29, respawns 435.11 / 439.98).
+# 444.51 one combo, 4 kills. Deaths 447.91 / 452.3, respawns 449.79 / 453.55.
+# 458.23 moving double combo (ball 457.40 -> 458.47, 898 uu sideways), 4 kills, slow motion 0.2x.
+# Chain 2: 460.64 Ultra .. 462.65 Monster .. flag 467.04 .. 468.59 Ultra/Monster/Ludicrous .. 469.81 HOLY SHIT ..
+# 473.12, killed with the flag 473.5.
+# Both chains happen in the corridor at y ~ -1800 (x 100..1400): a fixed camera high at its +x end, behind him,
+# tracks him while he fires down it (v2: a follow camera flipped against the walls when he strafed).
+start=416.8 blend=0 mode=follow tgt=8 dist=380 h=170 side=120 lead=400 fov=100 lag=0.85
+start=420.0 blend=0.9 mode=follow tgt=8 dist=210 h=200 lead=110 fov=95 lag=0.85
+start=421.3 blend=1.2 mode=static p=1460,-1800,-250 look=8 fov=80 lag=0.85
+start=427.0 blend=1.2 mode=follow tgt=8 dist=210 h=190 side=60 lead=110 fov=95 lag=0.85
+# fast forward: deaths and respawns hidden in whips
+start=433.9 blend=0.6 mode=orbit p=125,-650,-440 r=240 h=60 a0=0 w=30 lag=0.8 fov=90
+start=434.8 blend=1.2 whip=300 mode=follow tgt=8 dist=210 h=200 lead=110 fov=95 lag=0.85
+start=436.35 blend=0.6 mode=orbit p=712,1053,-300 r=240 h=60 a0=180 w=-30 lag=0.8 fov=90
+start=439.5 blend=1.2 whip=-300 mode=follow tgt=8 dist=210 h=200 lead=110 fov=95 lag=0.85
+# one combo, four kills: ride the ball
+start=443.85 blend=0.3 mode=ball ballby=8 bp=142,-1330,-29 dist=200 h=40 lag=0.6 fov=100
+start=444.75 blend=0.6 whip=300 mode=static p=1460,-1800,-250 look=8 fov=80 lag=0.85
+start=446.9 blend=0.8 mode=orbit tgt=8 r=230 h=170 a0=90 w=30 lag=0.85 fov=90
+start=449.55 blend=0.5 whip=300 mode=follow tgt=8 dist=210 h=200 lead=110 fov=95 lag=0.85
+start=452.35 blend=0.6 mode=orbit p=79,459,120 r=240 h=40 a0=0 w=-30 lag=0.8 fov=90
+start=453.3 blend=0.5 whip=-300 mode=follow tgt=8 dist=210 h=200 lead=110 fov=95 lag=0.85
+# the moving double combo: ride the ball in slow motion
+start=457.3 blend=0.4 mode=ball ballby=8 bp=310,-570,-337 dist=220 h=50 lag=0.6 fov=100
+start=459.0 blend=0.6 whip=-300 mode=static p=1460,-1800,-250 look=8 fov=80 lag=0.85
+# flag + Ludicrous: circle him
+start=466.4 blend=1.0 mode=orbit tgt=8 r=240 h=210 a0=270 w=-24 lag=0.85 fov=95
+start=468.85 blend=0.8 mode=follow tgt=8 dist=220 h=210 lead=110 fov=95 lag=0.85
+# killed with the flag: from the high-behind spot of the follow camera, rise slowly over the pit
+start=473.4 blend=0.8 mode=dolly p=-109,-470,-150 p2=-109,-560,-20 at=-109,-199,-430 dur=2.2 fov=90 lag=0.85

@@ -1,0 +1,32 @@
+{
+  "take": "take.mp4",
+  "takeNo": 2,
+  "start": 254.2,
+  "ramp": "261.2:1,261.5:0.4,262.4:0.4,262.7:1,274.35:1,274.55:0.2,274.95:0.2,275.3:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Suprfist.wav",
+    "dropAt": 35.07,
+    "dropOnDemo": 284.03,
+    "pullFrom": 282.6,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 265.43, "text": "DOUBLE KILL", "dur": 1.25},
+    {"t": 266.76, "text": "MULTI KILL", "dur": 1.3},
+    {"t": 268.14, "text": "MEGA KILL", "dur": 0.7},
+    {"t": 268.84, "text": "ULTRA KILL", "dur": 1.4},
+    {"t": 270.33, "text": "MONSTER KILL", "dur": 1.15},
+    {"t": 271.53, "text": "LUDICROUS KILL", "dur": 1.25},
+    {"t": 272.84, "text": "HOLY SHIT", "dur": 1.5},
+    {"t": 274.69, "delay": 0.1, "text": "HOLY SHIT", "sub": "AGAIN", "big": true, "dur": 2.6},
+    {"t": 276.07, "text": "11 KILLS", "sub": "IN 10.6 SECONDS", "dur": 2.6},
+    {"t": 284.03, "text": "FLAG CAPTURED", "sub": "BLUE TEAM SCORES", "dur": 2.4}
+  ],
+  "endcard": [
+    ["ONE TAKE II", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-W00TABULOUS   ·   37 SECONDS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

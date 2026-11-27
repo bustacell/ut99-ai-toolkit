@@ -1,0 +1,1657 @@
+{
+ "output": "YourNick-gravity.mp4",
+ "fps": 60,
+ "music": {
+  "file": "..\\music\\Skyward.it",
+  "offset": 0.0,
+  "tempo": 136.0,
+  "beat": 0.4411764705882353
+ },
+ "title": {
+  "beats": 16,
+  "name": "GRAVITY",
+  "top": "YOURNICK",
+  "bottom": "UNREAL TOURNAMENT  COMBOGIB"
+ },
+ "outro": {
+  "beats": 12,
+  "name": "YOURNICK",
+  "bottom": "GRAVITY  -  UNREAL TOURNAMENT COMBOGIB"
+ },
+ "totalSeconds": 192.35,
+ "shots": [
+  {
+   "kind": "cam",
+   "demo": "DM-Liandri_12-06_00-20-46.dem",
+   "cam": "mode=dolly p=237,1209,1280 p2=-410,1170,2090 lookname=YourNick dur=6.18 fov=95 fov2=80 lag=0.6 off=10",
+   "start": 71.899,
+   "end": 78.075,
+   "speed": 1.0,
+   "beats": 14,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player1"
+    ],
+    "score": 25.25,
+    "demo": "DM-Liandri_12-06_00-20-46.dem",
+    "t": 79.84,
+    "cat": "crane"
+   },
+   "id": "g01",
+   "musicSeconds": 6.1765
+  },
+  {
+   "kind": "cam",
+   "demo": "DM-Liandri_12-06_00-20-46.dem",
+   "cam": "mode=ball ballbyname=YourNick tgtname=YourNick dist=170 h=28 lag=0.55 off=0",
+   "start": 78.075,
+   "end": 80.281,
+   "speed": 1.0,
+   "beats": 5,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player1"
+    ],
+    "score": 25.25,
+    "demo": "DM-Liandri_12-06_00-20-46.dem",
+    "t": 79.84,
+    "cat": "moving"
+   },
+   "id": "g02",
+   "musicSeconds": 2.2059
+  },
+  {
+   "kind": "cam",
+   "demo": "DM-Liandri_12-06_00-20-46.dem",
+   "cam": "mode=orbit p=687,1237,1240 r=520 h=140 a0=-69 w=30 lag=0.75 off=-20 rt=1",
+   "start": 79.566,
+   "end": 80.492,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player1"
+    ],
+    "score": 25.25,
+    "demo": "DM-Liandri_12-06_00-20-46.dem",
+    "t": 79.84,
+    "cat": "moving"
+   },
+   "id": "g03",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+   "player": "YourNick",
+   "start": 59.222,
+   "end": 62.751,
+   "speed": 1.0,
+   "beats": 8,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "longshot",
+    "label": "LONG SHOT 71 m",
+    "killer": "YourNick",
+    "victims": [
+     "Player2"
+    ],
+    "score": 6.6,
+    "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+    "t": 62.31,
+    "cat": "longshot"
+   },
+   "id": "g04",
+   "musicSeconds": 3.5294,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+   "cam": "mode=orbit p=-1739,-1339,-572 r=300 h=80 a0=-5 w=26 lag=0.75 off=0 rt=1",
+   "start": 61.401,
+   "end": 62.636,
+   "speed": 0.35,
+   "beats": 8,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "longshot",
+    "label": "LONG SHOT 71 m",
+    "killer": "YourNick",
+    "victims": [
+     "Player2"
+    ],
+    "score": 6.6,
+    "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+    "t": 62.31,
+    "cat": "longshot"
+   },
+   "id": "g05",
+   "musicSeconds": 3.5294
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-((RURU))Clay3_01-23_01-24-13.dem",
+   "cam": "mode=chase tgtname=YourNick dist=260 h=70 lag=0.86 off=20",
+   "start": 141.901,
+   "end": 145.871,
+   "speed": 1.0,
+   "beats": 9,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player3"
+    ],
+    "score": 9.17,
+    "demo": "CTF-((RURU))Clay3_01-23_01-24-13.dem",
+    "t": 145.43,
+    "cat": "moving"
+   },
+   "id": "g06",
+   "musicSeconds": 3.9706
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-((RURU))Clay3_01-23_01-24-13.dem",
+   "cam": "mode=orbit p=-741,-1065,233 r=520 h=140 a0=119 w=30 lag=0.75 off=-20 rt=1",
+   "start": 145.156,
+   "end": 146.082,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player3"
+    ],
+    "score": 9.17,
+    "demo": "CTF-((RURU))Clay3_01-23_01-24-13.dem",
+    "t": 145.43,
+    "cat": "moving"
+   },
+   "id": "g07",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-PD_10-29_00-58-36.dem",
+   "cam": "mode=ball ballbyname=YourNick tgtname=YourNick dist=170 h=28 lag=0.55 off=0",
+   "start": 347.452,
+   "end": 350.981,
+   "speed": 1.0,
+   "beats": 8,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player4"
+    ],
+    "score": 17.86,
+    "demo": "CTF-PD_10-29_00-58-36.dem",
+    "t": 350.54,
+    "cat": "moving"
+   },
+   "id": "g08",
+   "musicSeconds": 3.5294
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-PD_10-29_00-58-36.dem",
+   "cam": "mode=orbit p=580,1254,-58 r=520 h=140 a0=-39 w=30 lag=0.75 off=-20 rt=1",
+   "start": 350.266,
+   "end": 351.192,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player4"
+    ],
+    "score": 17.86,
+    "demo": "CTF-PD_10-29_00-58-36.dem",
+    "t": 350.54,
+    "cat": "moving"
+   },
+   "id": "g09",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "DM-Liandri_12-06_00-20-46.dem",
+   "cam": "mode=chase tgtname=YourNick dist=260 h=70 lag=0.86 off=20",
+   "start": 37.035,
+   "end": 39.241,
+   "speed": 1.0,
+   "beats": 5,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player1"
+    ],
+    "score": 25.27,
+    "demo": "DM-Liandri_12-06_00-20-46.dem",
+    "t": 38.8,
+    "cat": "moving"
+   },
+   "id": "g10",
+   "musicSeconds": 2.2059
+  },
+  {
+   "kind": "cam",
+   "demo": "DM-Liandri_12-06_00-20-46.dem",
+   "cam": "mode=orbit p=1471,1705,1092 r=520 h=140 a0=-81 w=30 lag=0.75 off=-20 rt=1",
+   "start": 38.526,
+   "end": 39.452,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player1"
+    ],
+    "score": 25.27,
+    "demo": "DM-Liandri_12-06_00-20-46.dem",
+    "t": 38.8,
+    "cat": "moving"
+   },
+   "id": "g11",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_02-04_00-21-49.dem",
+   "cam": "mode=ball ballbyname=YourNick tgtname=YourNick dist=170 h=28 lag=0.55 off=0",
+   "start": 653.379,
+   "end": 657.791,
+   "speed": 1.0,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player5"
+    ],
+    "score": 12.83,
+    "demo": "CTF-w00tabulousFixed_02-04_00-21-49.dem",
+    "t": 657.35,
+    "cat": "moving"
+   },
+   "id": "g12",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_02-04_00-21-49.dem",
+   "cam": "mode=orbit p=2693,-151,-67 r=520 h=140 a0=199 w=30 lag=0.75 off=-20 rt=1",
+   "start": 657.076,
+   "end": 658.002,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player5"
+    ],
+    "score": 12.83,
+    "demo": "CTF-w00tabulousFixed_02-04_00-21-49.dem",
+    "t": 657.35,
+    "cat": "moving"
+   },
+   "id": "g13",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-(UTW)OPEL_spfix_01-07_00-14-50.dem",
+   "cam": "mode=chase tgtname=YourNick dist=260 h=70 lag=0.86 off=20",
+   "start": 116.219,
+   "end": 120.631,
+   "speed": 1.0,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player6"
+    ],
+    "score": 11.14,
+    "demo": "CTF-(UTW)OPEL_spfix_01-07_00-14-50.dem",
+    "t": 120.19,
+    "cat": "moving"
+   },
+   "id": "g14",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-(UTW)OPEL_spfix_01-07_00-14-50.dem",
+   "cam": "mode=orbit p=308,-264,-204 r=520 h=140 a0=-125 w=30 lag=0.75 off=-20 rt=1",
+   "start": 119.916,
+   "end": 120.842,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player6"
+    ],
+    "score": 11.14,
+    "demo": "CTF-(UTW)OPEL_spfix_01-07_00-14-50.dem",
+    "t": 120.19,
+    "cat": "moving"
+   },
+   "id": "g15",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+   "cam": "mode=ball ballbyname=Player7 tgtname=Player7 dist=170 h=28 lag=0.55 off=0",
+   "start": 489.839,
+   "end": 494.251,
+   "speed": 1.0,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "Player7",
+    "victims": [
+     "YourNick"
+    ],
+    "score": 25.65,
+    "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+    "t": 493.81,
+    "cat": "moving"
+   },
+   "id": "g16",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+   "cam": "mode=orbit p=2433,432,-131 r=520 h=140 a0=-62 w=30 lag=0.75 off=-20 rt=1",
+   "start": 493.536,
+   "end": 494.462,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "Player7",
+    "victims": [
+     "YourNick"
+    ],
+    "score": 25.65,
+    "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+    "t": 493.81,
+    "cat": "moving"
+   },
+   "id": "g17",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+   "cam": "mode=chase tgtname=Player8 dist=260 h=70 lag=0.86 off=20",
+   "start": 545.698,
+   "end": 550.551,
+   "speed": 1.0,
+   "beats": 11,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "Player8",
+    "victims": [
+     "Player9"
+    ],
+    "score": 23.0,
+    "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+    "t": 550.11,
+    "cat": "moving"
+   },
+   "id": "g18",
+   "musicSeconds": 4.8529
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+   "cam": "mode=orbit p=-981,-399,-192 r=520 h=140 a0=86 w=30 lag=0.75 off=-20 rt=1",
+   "start": 549.836,
+   "end": 550.762,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "Player8",
+    "victims": [
+     "Player9"
+    ],
+    "score": 23.0,
+    "demo": "CTF-w00tabulousFixed-2022_02-24_23-41-23.dem",
+    "t": 550.11,
+    "cat": "moving"
+   },
+   "id": "g19",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+   "cam": "mode=dolly p=742,-295,495 p2=97,-216,1305 lookname=Player10 dur=6.62 fov=95 fov2=80 lag=0.6 off=10",
+   "start": 669.515,
+   "end": 676.133,
+   "speed": 1.0,
+   "beats": 15,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player10",
+    "victims": [
+     "Player11"
+    ],
+    "score": 9.0,
+    "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+    "t": 678.78,
+    "cat": "crane"
+   },
+   "id": "g20",
+   "musicSeconds": 6.6176
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+   "cam": "mode=chase tgtname=Player10 dist=240 h=60 lag=0.85 off=10",
+   "start": 676.133,
+   "end": 679.221,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player10",
+    "victims": [
+     "Player11"
+    ],
+    "score": 9.0,
+    "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+    "t": 678.78,
+    "cat": "air2air"
+   },
+   "id": "g21",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+   "player": "Player10",
+   "start": 677.456,
+   "end": 679.221,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player10",
+    "victims": [
+     "Player11"
+    ],
+    "score": 9.0,
+    "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+    "t": 678.78,
+    "cat": "air2air"
+   },
+   "id": "g22",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+   "cam": "mode=orbit p=1189,-350,455 r=330 h=60 a0=278 w=34 lag=0.75 off=0 rt=1",
+   "start": 678.476,
+   "end": 679.402,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player10",
+    "victims": [
+     "Player11"
+    ],
+    "score": 9.0,
+    "demo": "CTF-w00tabulousFixed_11-14_00-45-32.dem",
+    "t": 678.78,
+    "cat": "air2air"
+   },
+   "id": "g23",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "player": "YourNick",
+   "start": 949.685,
+   "end": 951.45,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player12"
+    ],
+    "score": 11.59,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 951.45,
+    "cat": "aircombo"
+   },
+   "id": "g24",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "cam": "mode=orbit p=1052,-391,-470 r=380 h=60 a0=-50 w=38 lag=0.5 off=0 rt=1",
+   "start": 951.377,
+   "end": 951.448,
+   "speed": 0.02,
+   "beats": 8,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player12"
+    ],
+    "score": 11.59,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 951.45,
+    "cat": "aircombo"
+   },
+   "id": "g25",
+   "musicSeconds": 3.5294
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "cam": "mode=orbit p=1052,-391,-470 r=420 h=90 a0=80 w=30 lag=0.75 off=-20 rt=1",
+   "start": 951.176,
+   "end": 951.793,
+   "speed": 0.35,
+   "beats": 4,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player12"
+    ],
+    "score": 11.59,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 951.45,
+    "cat": "aircombo"
+   },
+   "id": "g26",
+   "musicSeconds": 1.7647
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Ogre_11-25_00-33-29.dem",
+   "cam": "mode=chase tgtname=YourNick dist=240 h=60 lag=0.85 off=10",
+   "start": 540.873,
+   "end": 543.961,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player13"
+    ],
+    "score": 9.0,
+    "demo": "CTF-Ogre_11-25_00-33-29.dem",
+    "t": 543.52,
+    "cat": "air2air"
+   },
+   "id": "g27",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-Ogre_11-25_00-33-29.dem",
+   "player": "YourNick",
+   "start": 542.196,
+   "end": 543.961,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player13"
+    ],
+    "score": 9.0,
+    "demo": "CTF-Ogre_11-25_00-33-29.dem",
+    "t": 543.52,
+    "cat": "air2air"
+   },
+   "id": "g28",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Ogre_11-25_00-33-29.dem",
+   "cam": "mode=orbit p=5212,2191,2908 r=330 h=60 a0=218 w=34 lag=0.75 off=0 rt=1",
+   "start": 543.216,
+   "end": 544.142,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player13"
+    ],
+    "score": 9.0,
+    "demo": "CTF-Ogre_11-25_00-33-29.dem",
+    "t": 543.52,
+    "cat": "air2air"
+   },
+   "id": "g29",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-Bolt_HE_12-03_00-36-34.dem",
+   "player": "YourNick",
+   "start": 629.435,
+   "end": 631.2,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player14",
+     "Player15"
+    ],
+    "score": 8.63,
+    "demo": "CTF-Bolt_HE_12-03_00-36-34.dem",
+    "t": 631.2,
+    "cat": "aircombo"
+   },
+   "id": "g30",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_12-03_00-36-34.dem",
+   "cam": "mode=orbit p=82,55,148 r=520 h=140 a0=-52 w=30 lag=0.75 off=-20 rt=1",
+   "start": 630.926,
+   "end": 632.006,
+   "speed": 0.35,
+   "beats": 7,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player14",
+     "Player15"
+    ],
+    "score": 8.63,
+    "demo": "CTF-Bolt_HE_12-03_00-36-34.dem",
+    "t": 631.2,
+    "cat": "aircombo"
+   },
+   "id": "g31",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "cam",
+   "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+   "cam": "mode=chase tgtname=Player16 dist=240 h=60 lag=0.85 off=10",
+   "start": 53.813,
+   "end": 56.901,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player16",
+    "victims": [
+     "Player17"
+    ],
+    "score": 9.0,
+    "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+    "t": 56.46,
+    "cat": "air2air"
+   },
+   "id": "g32",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "first",
+   "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+   "player": "Player16",
+   "start": 55.136,
+   "end": 56.901,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player16",
+    "victims": [
+     "Player17"
+    ],
+    "score": 9.0,
+    "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+    "t": 56.46,
+    "cat": "air2air"
+   },
+   "id": "g33",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+   "cam": "mode=orbit p=892,-239,2893 r=330 h=60 a0=268 w=34 lag=0.75 off=0 rt=1",
+   "start": 56.156,
+   "end": 57.082,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "Player16",
+    "victims": [
+     "Player17"
+    ],
+    "score": 9.0,
+    "demo": "DOM-MetalDream_12-27_21-47-43.dem",
+    "t": 56.46,
+    "cat": "air2air"
+   },
+   "id": "g34",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-PD_11-09_00-46-17.dem",
+   "player": "YourNick",
+   "start": 507.522,
+   "end": 510.61,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player18"
+    ],
+    "score": 7.68,
+    "demo": "CTF-PD_11-09_00-46-17.dem",
+    "t": 510.61,
+    "cat": "aircombo"
+   },
+   "id": "g35",
+   "musicSeconds": 3.0882,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-PD_11-09_00-46-17.dem",
+   "cam": "mode=orbit p=-563,1076,-127 r=380 h=60 a0=-15 w=38 lag=0.5 off=0 rt=1",
+   "start": 510.537,
+   "end": 510.608,
+   "speed": 0.02,
+   "beats": 8,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player18"
+    ],
+    "score": 7.68,
+    "demo": "CTF-PD_11-09_00-46-17.dem",
+    "t": 510.61,
+    "cat": "aircombo"
+   },
+   "id": "g36",
+   "musicSeconds": 3.5294
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-PD_11-09_00-46-17.dem",
+   "cam": "mode=orbit p=-563,1076,-127 r=420 h=90 a0=115 w=30 lag=0.75 off=-20 rt=1",
+   "start": 510.336,
+   "end": 510.953,
+   "speed": 0.35,
+   "beats": 4,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player18"
+    ],
+    "score": 7.68,
+    "demo": "CTF-PD_11-09_00-46-17.dem",
+    "t": 510.61,
+    "cat": "aircombo"
+   },
+   "id": "g37",
+   "musicSeconds": 1.7647
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+   "cam": "mode=chase tgtname=YourNick dist=240 h=60 lag=0.85 off=10",
+   "start": 419.903,
+   "end": 422.991,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player19"
+    ],
+    "score": 9.0,
+    "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+    "t": 422.55,
+    "cat": "air2air"
+   },
+   "id": "g38",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+   "player": "YourNick",
+   "start": 421.226,
+   "end": 422.991,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player19"
+    ],
+    "score": 9.0,
+    "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+    "t": 422.55,
+    "cat": "air2air"
+   },
+   "id": "g39",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+   "cam": "mode=orbit p=1859,-220,14 r=330 h=60 a0=307 w=34 lag=0.75 off=0 rt=1",
+   "start": 422.246,
+   "end": 423.172,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player19"
+    ],
+    "score": 9.0,
+    "demo": "CTF-(mo)-FootBallz_01-20_01-06-21.dem",
+    "t": 422.55,
+    "cat": "air2air"
+   },
+   "id": "g40",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-washme-beta3_02-06_01-55-35.dem",
+   "player": "YourNick",
+   "start": 1026.682,
+   "end": 1029.77,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player20"
+    ],
+    "score": 17.66,
+    "demo": "CTF-washme-beta3_02-06_01-55-35.dem",
+    "t": 1029.77,
+    "cat": "aircombo"
+   },
+   "id": "g41",
+   "musicSeconds": 3.0882,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-washme-beta3_02-06_01-55-35.dem",
+   "cam": "mode=orbit p=-975,-2424,279 r=520 h=140 a0=148 w=30 lag=0.75 off=-20 rt=1",
+   "start": 1029.496,
+   "end": 1030.576,
+   "speed": 0.35,
+   "beats": 7,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player20"
+    ],
+    "score": 17.66,
+    "demo": "CTF-washme-beta3_02-06_01-55-35.dem",
+    "t": 1029.77,
+    "cat": "aircombo"
+   },
+   "id": "g42",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+   "cam": "mode=chase tgtname=YourNick dist=240 h=60 lag=0.85 off=10",
+   "start": 25.403,
+   "end": 28.491,
+   "speed": 1.0,
+   "beats": 7,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player21"
+    ],
+    "score": 10.39,
+    "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+    "t": 28.05,
+    "cat": "air2air"
+   },
+   "id": "g43",
+   "musicSeconds": 3.0882
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+   "player": "YourNick",
+   "start": 26.726,
+   "end": 28.491,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player21"
+    ],
+    "score": 10.39,
+    "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+    "t": 28.05,
+    "cat": "air2air"
+   },
+   "id": "g44",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+   "cam": "mode=orbit p=4235,-935,-729 r=330 h=60 a0=251 w=34 lag=0.75 off=0 rt=1",
+   "start": 27.746,
+   "end": 28.672,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "airkill",
+    "label": "AIR KILL",
+    "killer": "YourNick",
+    "victims": [
+     "Player21"
+    ],
+    "score": 10.39,
+    "demo": "CTF-Damtoofar_11-22_00-29-52.dem",
+    "t": 28.05,
+    "cat": "air2air"
+   },
+   "id": "g45",
+   "musicSeconds": 2.6471
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+   "cam": "mode=dolly p=-70,59,17 p2=457,437,827 lookname=YourNick dur=8.82 fov=95 fov2=80 lag=0.6 off=10",
+   "start": 1143.682,
+   "end": 1152.505,
+   "speed": 1.0,
+   "beats": 20,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player22",
+     "Player23"
+    ],
+    "score": 12.26,
+    "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+    "t": 1154.27,
+    "cat": "crane"
+   },
+   "id": "g46",
+   "musicSeconds": 8.8235
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+   "player": "YourNick",
+   "start": 1152.505,
+   "end": 1154.27,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player22",
+     "Player23"
+    ],
+    "score": 12.26,
+    "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+    "t": 1154.27,
+    "cat": "hero"
+   },
+   "id": "g47",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+   "cam": "mode=orbit p=-437,-202,-23 r=380 h=60 a0=73 w=38 lag=0.5 off=0 rt=1",
+   "start": 1154.179,
+   "end": 1154.268,
+   "speed": 0.02,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player22",
+     "Player23"
+    ],
+    "score": 12.26,
+    "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+    "t": 1154.27,
+    "cat": "hero"
+   },
+   "id": "g48",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+   "cam": "mode=orbit p=-437,-202,-23 r=460 h=110 a0=233 w=30 lag=0.75 off=-20 rt=1",
+   "start": 1153.996,
+   "end": 1154.613,
+   "speed": 0.35,
+   "beats": 4,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player22",
+     "Player23"
+    ],
+    "score": 12.26,
+    "demo": "CTF-Bolt_HE_02-25_01-52-33.dem",
+    "t": 1154.27,
+    "cat": "hero"
+   },
+   "id": "g49",
+   "musicSeconds": 1.7647
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+   "player": "YourNick",
+   "start": 1095.375,
+   "end": 1097.14,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player24",
+     "Player25"
+    ],
+    "score": 11.94,
+    "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+    "t": 1097.14,
+    "cat": "hero"
+   },
+   "id": "g50",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+   "cam": "mode=orbit p=-153,250,34 r=380 h=60 a0=201 w=38 lag=0.5 off=0 rt=1",
+   "start": 1097.049,
+   "end": 1097.138,
+   "speed": 0.02,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player24",
+     "Player25"
+    ],
+    "score": 11.94,
+    "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+    "t": 1097.14,
+    "cat": "hero"
+   },
+   "id": "g51",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+   "cam": "mode=orbit p=-153,250,34 r=460 h=110 a0=361 w=30 lag=0.75 off=-20 rt=1",
+   "start": 1096.866,
+   "end": 1097.483,
+   "speed": 0.35,
+   "beats": 4,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "2x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player24",
+     "Player25"
+    ],
+    "score": 11.94,
+    "demo": "CTF-Bolt_HE_11-29_01-30-25.dem",
+    "t": 1097.14,
+    "cat": "hero"
+   },
+   "id": "g52",
+   "musicSeconds": 1.7647
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "player": "YourNick",
+   "start": 647.105,
+   "end": 648.87,
+   "speed": 1.0,
+   "beats": 4,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player26",
+     "Player12",
+     "Player27"
+    ],
+    "score": 9.35,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 648.87,
+    "cat": "hero"
+   },
+   "id": "g53",
+   "musicSeconds": 1.7647,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "cam": "mode=orbit p=-1160,27,-101 r=380 h=60 a0=186 w=38 lag=0.5 off=0 rt=1",
+   "start": 648.779,
+   "end": 648.868,
+   "speed": 0.02,
+   "beats": 10,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player26",
+     "Player12",
+     "Player27"
+    ],
+    "score": 9.35,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 648.87,
+    "cat": "hero"
+   },
+   "id": "g54",
+   "musicSeconds": 4.4118
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+   "cam": "mode=orbit p=-1160,27,-101 r=460 h=110 a0=346 w=30 lag=0.75 off=-20 rt=1",
+   "start": 648.596,
+   "end": 649.213,
+   "speed": 0.35,
+   "beats": 4,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player26",
+     "Player12",
+     "Player27"
+    ],
+    "score": 9.35,
+    "demo": "CTF-w00tabulousFixed_12-09_00-17-30.dem",
+    "t": 648.87,
+    "cat": "hero"
+   },
+   "id": "g55",
+   "musicSeconds": 1.7647
+  },
+  {
+   "kind": "first",
+   "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+   "player": "YourNick",
+   "start": 573.284,
+   "end": 575.49,
+   "speed": 1.0,
+   "beats": 5,
+   "hud": 1,
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player28",
+     "Player29",
+     "Player30"
+    ],
+    "score": 12.23,
+    "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+    "t": 575.49,
+    "cat": "hero"
+   },
+   "id": "g56",
+   "musicSeconds": 2.2059,
+   "tags": []
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+   "cam": "mode=ball ballbyname=YourNick tgtname=YourNick dist=170 h=28 lag=0.55 off=0",
+   "start": 573.284,
+   "end": 575.49,
+   "speed": 1.0,
+   "beats": 5,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.7,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player28",
+     "Player29",
+     "Player30"
+    ],
+    "score": 12.23,
+    "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+    "t": 575.49,
+    "cat": "hero"
+   },
+   "id": "g57",
+   "musicSeconds": 2.2059
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+   "cam": "mode=orbit p=-1172,-128,208 r=380 h=60 a0=73 w=38 lag=0.5 off=0 rt=1",
+   "start": 575.382,
+   "end": 575.488,
+   "speed": 0.02,
+   "beats": 12,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.0,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player28",
+     "Player29",
+     "Player30"
+    ],
+    "score": 12.23,
+    "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+    "t": 575.49,
+    "cat": "hero"
+   },
+   "id": "g58",
+   "musicSeconds": 5.2941
+  },
+  {
+   "kind": "cam",
+   "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+   "cam": "mode=orbit p=-1172,-128,208 r=460 h=110 a0=233 w=30 lag=0.75 off=-20 rt=1",
+   "start": 575.216,
+   "end": 576.142,
+   "speed": 0.35,
+   "beats": 6,
+   "hud": 1,
+   "tags": [
+    "YourNick"
+   ],
+   "gameVol": 0.3,
+   "moment": {
+    "type": "combo",
+    "label": "3x COMBO",
+    "killer": "YourNick",
+    "victims": [
+     "Player28",
+     "Player29",
+     "Player30"
+    ],
+    "score": 12.23,
+    "demo": "CTF-LiandriDocks_12-27_21-50-22.dem",
+    "t": 575.49,
+    "cat": "hero"
+   },
+   "id": "g59",
+   "musicSeconds": 2.6471
+  }
+ ]
+}

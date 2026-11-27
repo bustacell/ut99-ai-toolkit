@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "signal": "../scenes/signal/frames",
+    "liandri": "../scenes/liandri/frames",
+    "phobos": "../scenes/phobos/frames",
+    "morpheus-wide": "../scenes/morpheus-wide/frames",
+    "morpheus": "../scenes/morpheus/frames",
+    "lava": "../scenes/lava/frames",
+    "overlook": "../scenes/overlook/frames",
+    "hyperblast": "../scenes/hyperblast/frames",
+    "combo": "../scenes/combo/frames",
+    "capture-fx": "../scenes/capture-fx/frames",
+    "malcolm": "archive/malcolm/frames",
+    "coret": "archive/coret/frames",
+    "chase": "archive/chase/frames",
+    "deck": "archive/deck/frames",
+    "brock": "archive/brock/frames",
+    "squad": "archive/squad/frames",
+    "capture": "archive/capture/frames"
+  },
+  "channel": {}
+}

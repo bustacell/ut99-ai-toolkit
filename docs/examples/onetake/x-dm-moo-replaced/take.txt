@@ -1,0 +1,18 @@
+# REPLACED: the author did not want a deathmatch film; film 5 is now 5-boxhouse (ComboGib). Kept as a weapons-game example.
+# ONE TAKE V (normal weapons, deathmatch) - DemosArchive13\DM-Moo!_12-06_00-57-10.dem, 159.5 .. 207.5.
+# YourNick = 1, Player81 = 3, Player80 = 0 (logged as "Player"). Respawn 159.4, kills: 164.69 Minigun (Player81),
+# 175.68 Minigun (Player81), 190.53 Rockets (Player81), 198.34 Rockets (Player81, slow 0.3x), 204.66 Rockets (Player80,
+# killing spree, slow 0.25x). Next death 213.0 (sniper headshot), after the window.
+start=159.5 blend=0 mode=follow tgt=1 dist=280 h=110 lead=250 fov=95 lag=0.85 wide=60
+start=163.6 blend=1.0 mode=orbit tgt=1 r=260 h=100 a0=200 w=30 lag=0.85 fov=95 wide=60
+start=166.0 blend=1.2 mode=follow tgt=1 dist=300 h=120 side=120 lead=300 fov=100 lag=0.85 wide=60
+start=174.4 blend=1.0 mode=follow tgt=1 look=3 dist=280 h=90 side=-120 lead=250 fov=100 lag=0.85 wide=60
+start=177.0 blend=1.2 mode=follow tgt=1 dist=300 h=140 lead=300 fov=100 lag=0.85 wide=60
+start=189.2 blend=1.0 mode=follow tgt=1 look=3 dist=260 h=100 lead=250 fov=100 lag=0.85 wide=60
+start=193.0 blend=1.0 mode=follow tgt=1 dist=280 h=110 lead=250 fov=95 lag=0.85 wide=60
+start=197.3 blend=0.8 mode=follow tgt=1 look=3 dist=240 h=70 side=-140 lead=250 fov=100 lag=0.8 wide=60
+start=199.5 blend=1.0 mode=follow tgt=1 dist=280 h=120 lead=300 fov=95 lag=0.85 wide=60
+# spree kill: plain close follow, no wide= (the wide check squeezed an orbit into his model; a fixed camera was
+# blocked by pillars)
+start=203.6 blend=0.8 mode=follow tgt=1 dist=210 h=80 lead=320 fov=95 lag=0.8
+start=205.8 blend=1.5 mode=orbit tgt=1 r=320 h=260 a0=60 w=-18 lag=0.88 fov=95 wide=60

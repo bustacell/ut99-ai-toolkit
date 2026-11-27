@@ -1,0 +1,28 @@
+{
+  "take": "take.mp4",
+  "takeNo": 5,
+  "start": 159.5,
+  "ramp": "197.9:1,198.1:0.3,198.6:0.3,198.9:1,204.2:1,204.45:0.25,204.95:0.25,205.4:1",
+  "gameVol": 0.65,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Uttitle.wav",
+    "dropAt": 55.0,
+    "dropOnDemo": 204.66,
+    "pullFrom": 204.2,
+    "vol": 0.8
+  },
+  "captions": [
+    {"t": 159.7, "text": "RESPAWN", "sub": "DEATHMATCH   ·   NORMAL WEAPONS", "dur": 2.4},
+    {"t": 164.69, "text": "MINIGUN", "dur": 1.6},
+    {"t": 175.68, "text": "MINIGUN", "sub": "AGAIN", "dur": 1.6},
+    {"t": 190.53, "text": "ROCKET LAUNCHER", "dur": 1.6},
+    {"t": 198.34, "text": "ROCKET LAUNCHER", "sub": "DIRECT HIT", "dur": 2.2},
+    {"t": 204.66, "delay": 0.05, "text": "KILLING SPREE", "sub": "5 KILLS   ·   0 DEATHS", "big": true, "dur": 2.8}
+  ],
+  "endcard": [
+    ["ONE TAKE V", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["DM-MOO!   ·   MINIGUN + ROCKETS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

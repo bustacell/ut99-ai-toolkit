@@ -1,0 +1,32 @@
+{
+  "take": "take.mp4",
+  "start": 544.0,
+  "ramp": "578.6:1,579.3:2.5,583.7:2.5,584.4:1,592.55:1,592.85:0.15,593.35:0.15,593.9:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Botpck10.wav",
+    "dropAt": 112.036,
+    "dropOnDemo": 593.25,
+    "pullFrom": 592.55,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 548.83, "text": "DOUBLE KILL"},
+    {"t": 559.98, "text": "MULTI KILL", "sub": "FLAG IN HAND"},
+    {"t": 565.93, "text": "MEGA KILL", "sub": "YOURNICK"},
+    {"t": 571.71, "text": "ULTRA KILL", "sub": "PLAYER77 ANSWERS"},
+    {"t": 577.18, "text": "REVENGE", "sub": "YOURNICK TAKES OUT PLAYER77"},
+    {"t": 588.06, "text": "DOUBLE KILL", "dur": 1.3},
+    {"t": 589.64, "text": "MULTI KILL", "sub": "FLAG IN HAND", "dur": 1.2},
+    {"t": 590.94, "text": "MEGA KILL", "dur": 0.75},
+    {"t": 591.74, "text": "ULTRA KILL", "dur": 0.7},
+    {"t": 593.2, "delay": 0.15, "text": "MONSTER KILL", "sub": "WITH THE FLAG", "big": true, "dur": 2.6},
+    {"t": 596.89, "text": "FLAG CAPTURED", "sub": "BLUE TEAM SCORES", "dur": 2.2}
+  ],
+  "endcard": [
+    ["ONE TAKE", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-CLAY3   ·   55 SECONDS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "take": "take.mp4",
+  "takeNo": 4,
+  "start": 221.0,
+  "ramp": "240.3:1,240.5:0.25,240.95:0.25,241.25:1,260.6:1,261.1:2.5,268.0:2.5,268.6:1",
+  "grade": "eq=brightness=0.035:contrast=1.06:gamma=1.12:saturation=1.05",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Godown_full.wav",
+    "dropAt": 141.8,
+    "dropOnDemo": 271.66,
+    "pullFrom": 270.9,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 222.96, "text": "FLAG TAKEN", "sub": "RED BASE", "dur": 1.8},
+    {"t": 230.82, "text": "AIR KILL", "dur": 1.5},
+    {"t": 232.8, "text": "CLEARED THE WAY", "dur": 1.6},
+    {"t": 235.88, "text": "CAPTURE", "sub": "13 SECOND RUN", "dur": 2.0},
+    {"t": 240.78, "delay": 0.05, "text": "AIR TO AIR", "sub": "BOTH OFF THE GROUND", "big": true, "dur": 2.6},
+    {"t": 245.89, "text": "FLAG TAKEN", "sub": "AGAIN", "dur": 1.8},
+    {"t": 256.16, "text": "KILLING SPREE", "dur": 1.6},
+    {"t": 260.4, "text": "HOLDING", "sub": "THEY HAVE OUR FLAG", "dur": 2.4},
+    {"t": 271.36, "text": "FLAG RETURNED", "sub": "ONE", "dur": 0.6},
+    {"t": 271.66, "text": "CAPTURE", "sub": "0.3 SECONDS LATER", "big": true, "dur": 2.8}
+  ],
+  "endcard": [
+    ["ONE TAKE IV", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-SWEATSHOP   ·   2 CAPTURES   ·   0 DEATHS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

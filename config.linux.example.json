@@ -1,0 +1,16 @@
+{
+  "player": "UTFactory",
+  "utRoot": "/path/to/UnrealTournament",
+  "demoDirs": [],
+  "binDirs": [],
+  "blender": "/path/to/blender-5.2.3-linux-x64/blender",
+  "assetsDir": "assets/ut",
+  "lvpsPropsDir": "output/lvps/props",
+  "lvpsPropsDirV2": "output/lvps/vol2/props",
+  "lvpsPropsDirV3": "output/lvps/vol3/props",
+  "lvpsFontsDir": "/path/to/fonts",
+  "yearbookRoot": "output/yearbook/v1",
+  "yearbookFontsDir": "/path/to/fonts",
+  "yearbookMusic": "assets/ut/music/Mission.wav",
+  "yearbookVoiceInventory": "output/yearbook/v1/inventory/voice_inventory_verified.csv"
+}

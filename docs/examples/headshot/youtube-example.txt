@@ -1,0 +1,47 @@
+TITLE
+13 UT99 Headshots. 0 Bullets Existed. (Bullet Time, in-engine)
+
+Alternatives:
+- "HEADSHOT!" but the UT99 Sniper Finally Fires a Real Bullet
+- I Gave the UT99 Sniper Rifle an Actual Bullet (13 Headshots in Bullet Time)
+- UT99 Headshots at 2% Speed: You Can Hear This Video
+
+
+DESCRIPTION
+The Unreal Tournament sniper rifle never fired a bullet. It is hitscan: the shot lands the moment you click, and the bullet travel time is exactly 0.000 seconds. So I gave it one.
+
+13 of my own sniper headshots from my original UT99 demo recordings, from 3 meters to 200 meters, played back inside the real game at 2% speed while a bullet flies from the barrel to the head, lands on the exact frame of the kill, and then: HEADSHOT!
+
+00:00 slomo 0.02
+00:04 3 m to 138 m
+00:43 Air shots
+01:04 200 meters
+01:19 One more
+
+Everything on screen is real
+Every shot is Unreal Tournament itself replaying my .dem files. The players, their movement and the moment of each kill are exactly what happened in those games; the camera, the bullet, the slow motion and the gore are added during playback. The distance counter, target speed and time of flight come from the demo data. The kills happened in the real game.
+The announcer is the original 1999 "Headshot!" voice. The music is from the Unreal Tournament soundtrack (Phantom).
+
+How it was made
+UT99 (OldUnreal 469) playing my demos, with a small helper mod for the demo player: a scripted free camera that rides the bullet, speed ramps down to 0.02x, and a bullet that homes in on the exact head position from the demo. The gore is the Ultra Gore mod (SSE, by Feralidragon), triggered at every impact, and the head comes off for good.
+The headshots were found by scanning about 1,300 sniper kills in my demo archive and ranking them by distance and by players moving or flying.
+
+Unreal Tournament since 1999. KEEP UT ALIVE.
+
+Contains video game blood and gore.
+
+#UT99 #UnrealTournament #Headshot
+
+
+TAGS
+UT99, Unreal Tournament, Unreal Tournament 99, Unreal Tournament 1999, UT GOTY, headshot, head shot, UT99 headshot, sniper, sniper rifle, UT99 sniper, long range headshot, bullet time, slow motion, slomo, matrix bullet time, hitscan, demo recording, in-engine, frag movie, UT99 frag movie, Ultra Gore, gore mod, announcer, OldUnreal, UT469, retro FPS, arena shooter, old school FPS, nostalgia, Keep UT Alive, YourNick
+
+
+THUMBNAILS (output folder, 1920x1080 and 1280x720)
+1. yournick-headshot-v2_thumb1_hear-this.jpg      "You can hear this image" (pairs with the announcer)
+2. yournick-headshot-v2_thumb2_1999-vs-now.jpg    1999 hitscan vs 2026 bullet time
+3. yournick-headshot-v2_thumb3_bullet.jpg         bullet close-up, "200 m"
+Suggested: thumbnail 1 with the main title, A/B test against thumbnail 2.
+
+VIDEO FILE
+yournick-headshot-bullet-time_2160p_v2.mp4 (3840x2160, 60 fps, 90.8 s, -12.4 LUFS)

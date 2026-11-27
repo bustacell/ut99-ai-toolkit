@@ -1,0 +1,25 @@
+# ONE TAKE III (redo) - DemosArchive12\CTF-2on2-Ehre][_10-20_00-32-11.dem, 317.0 .. 388.6. YourNick = 3 (red).
+# Bases: red (own) -1832,-1529,-188; blue 1,295,-188. 318.08 kill, 320.52 takes the blue flag, run home (kills 321.95
+# combo, 325.29), 332-360 standoff at the own base (Player82 holds our flag): 334.53 air kill, 339.14, 341.48 double,
+# 350.31, 355.99 rampage, 358.02 double; Player83 returns our flag 359.65; CAPTURE 360.48 (8 frags, 40 s run).
+# Then 363.22 combo, 367.56 long air kill (1578 uu), 371.57, 373.40 double (dominating), 383.31, 384.75 double,
+# 387.28 Multi = moving combo (ball 386.39 -> 387.45, shooter moved 947 uu). Killed 388.72 (not shown).
+start=317.0 blend=0 mode=follow tgt=3 dist=260 h=120 lead=250 fov=95 lag=0.85 wide=70
+# flag grab at the blue base: circle him
+start=319.8 blend=1.0 mode=orbit tgt=3 r=280 h=110 a0=200 w=30 lag=0.85 fov=95 wide=70
+# the run home: wide, from the side
+start=322.6 blend=1.2 mode=follow tgt=3 dist=320 h=130 side=140 lead=300 fov=100 lag=0.85 wide=70
+# standoff at the own base: slow circle
+start=331.4 blend=1.5 mode=orbit tgt=3 r=250 h=150 a0=60 w=12 lag=0.88 fov=95 wide=70
+# fast forward over the quiet stretch: high overview
+start=342.3 blend=1.2 mode=orbit tgt=3 r=420 h=360 a0=120 w=22 lag=0.88 fov=95 wide=70
+start=349.2 blend=1.2 mode=follow tgt=3 dist=260 h=110 lead=220 fov=95 lag=0.85 wide=70
+# the capture: circle in close
+start=359.3 blend=1.2 mode=orbit tgt=3 r=250 h=90 a0=300 w=-35 lag=0.85 fov=95 wide=70
+# out again: long air kill, combo streak
+start=361.4 blend=1.2 mode=follow tgt=3 dist=260 h=120 lead=250 fov=95 lag=0.85 wide=70
+start=377.8 blend=1.2 mode=follow tgt=3 dist=320 h=160 side=-120 lead=250 fov=100 lag=0.85 wide=70
+# the moving combo: ride the ball in slow motion
+start=386.3 blend=0.4 mode=ball ballby=3 bp=-368,-444,123 dist=230 h=50 lag=0.6 fov=100
+# hold over the detonation
+start=387.75 blend=0.7 mode=orbit p=-410,420,-40 r=280 h=170 a0=0 w=25 lag=0.85 fov=95 wide=70

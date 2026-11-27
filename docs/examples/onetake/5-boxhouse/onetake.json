@@ -1,0 +1,31 @@
+{
+  "take": "take.mp4",
+  "takeNo": 5,
+  "start": 654.0,
+  "ramp": "658.4:1,658.6:0.25,659.45:0.25,659.7:1,689.0:1,689.15:0.4,689.75:0.4,690.0:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Godown_full.wav",
+    "dropAt": 13.9,
+    "dropOnDemo": 659.3,
+    "pullFrom": 658.5,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 659.3, "delay": 0.05, "text": "MOVING COMBO", "sub": "778 UP   ·   444 ACROSS   ·   AIR KILL", "big": true, "dur": 3.0},
+    {"t": 660.32, "delay": 0.4, "text": "FLAG RETURNED", "sub": "KILLING SPREE", "dur": 1.8},
+    {"t": 663.78, "text": "FLAG TAKEN", "dur": 1.8},
+    {"t": 669.78, "text": "COMBO", "dur": 1.4},
+    {"t": 671.97, "text": "COMBO", "sub": "AGAIN", "dur": 1.5},
+    {"t": 679.25, "text": "AIR COMBO", "sub": "FROM 600 UP", "dur": 1.8},
+    {"t": 681.86, "text": "CLEARING THE WAY", "dur": 1.6},
+    {"t": 689.24, "text": "RAMPAGE", "dur": 0.6},
+    {"t": 689.59, "delay": 0.05, "text": "CAPTURE", "sub": "26 SECOND CARRY   ·   5 FRAGS", "big": true, "dur": 2.8}
+  ],
+  "endcard": [
+    ["ONE TAKE V", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-BOXHOUSE   ·   0 DEATHS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

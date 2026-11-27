@@ -1,0 +1,33 @@
+{
+  "take": "take.mp4",
+  "takeNo": 3,
+  "start": 317.0,
+  "ramp": "342.3:1,342.8:2.5,349.0:2.5,349.5:1,386.9:1,387.1:0.25,387.5:0.25,387.8:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Mech8.wav",
+    "dropAt": 92.903,
+    "dropOnDemo": 360.48,
+    "pullFrom": 359.65,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 320.52, "text": "FLAG TAKEN", "sub": "BLUE BASE", "dur": 1.8},
+    {"t": 332.6, "text": "STANDOFF", "sub": "BOTH FLAGS AWAY", "dur": 2.2},
+    {"t": 334.53, "delay": 0.4, "text": "AIR KILL", "dur": 1.6},
+    {"t": 341.48, "text": "DOUBLE KILL", "dur": 1.6},
+    {"t": 355.99, "text": "RAMPAGE", "dur": 1.6},
+    {"t": 358.02, "text": "DOUBLE KILL", "dur": 1.5},
+    {"t": 359.65, "text": "FLAG RETURNED", "sub": "PLAYER83", "dur": 0.8},
+    {"t": 360.48, "text": "CAPTURE", "sub": "40 SECONDS WITH THE FLAG   ·   8 FRAGS", "big": true, "dur": 2.8},
+    {"t": 367.56, "text": "AIR KILL", "sub": "30 METERS", "dur": 1.8},
+    {"t": 373.4, "text": "DOMINATING", "dur": 1.6},
+    {"t": 387.4, "delay": 0.05, "text": "MOVING COMBO", "sub": "MULTI KILL", "big": true, "dur": 2.4}
+  ],
+  "endcard": [
+    ["ONE TAKE III", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-2ON2-EHRE][   ·   0 DEATHS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

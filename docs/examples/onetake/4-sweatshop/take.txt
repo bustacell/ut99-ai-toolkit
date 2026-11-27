@@ -1,0 +1,31 @@
+# ONE TAKE IV - DemosArchive12\CTF-Sweatshop_10-20_00-18-54.dem, 221.0 .. 274.6. YourNick = 8 (blue).
+# Bases: red 1280,1792,188 (enemy flag), blue -1270,-1788,188 (own). 0 deaths, all victims human.
+# 222.96 takes the red flag, kills 230.82 Player65 / 232.80 Player78, CAPTURE 235.88.
+# 240.78 air-to-air kill on Player78 (id 20; YourNick ~750 uu up, victim 555 up), slow motion 0.25x.
+# 245.89 takes the red flag again (Player79 holds ours), kills 248.60 / 256.16 (spree), waits at the own base,
+# A teammate kills Player79 269.48 and returns our flag 271.36, CAPTURE 271.66.
+start=221.0 blend=0 mode=follow tgt=8 dist=340 h=140 side=120 lead=350 fov=100 lag=0.85 wide=70
+# flag grab 1
+start=222.5 blend=0.8 mode=orbit tgt=8 r=260 h=100 a0=150 w=35 lag=0.85 fov=95 wide=70
+# run 1
+start=224.0 blend=1.2 mode=follow tgt=8 dist=300 h=120 lead=300 fov=95 lag=0.85 wide=70
+# capture 1: close circle
+start=234.6 blend=1.0 mode=orbit tgt=8 r=250 h=90 a0=0 w=-35 lag=0.85 fov=95 wide=70
+# the flight back up the side: wide
+start=236.6 blend=1.2 mode=follow tgt=8 dist=250 h=100 lead=300 fov=100 lag=0.7 wide=70
+# air-to-air kill: frame both players, slow motion
+# (follow cameras end up outside the window wall here; glass does not block traces) fixed camera at a point he
+# flew through at 240.2 (inside for sure); he and the victim (-764,1597,635) line up from there
+start=239.9 blend=0.6 mode=static p=-1330,670,800 look=8 fov=80 lag=0.8
+start=241.4 blend=1.0 mode=follow tgt=8 dist=340 h=140 lead=350 fov=100 lag=0.85 wide=70
+# flag grab 2
+start=245.4 blend=0.8 mode=orbit tgt=8 r=260 h=110 a0=200 w=30 lag=0.85 fov=95 wide=70
+# run 2
+start=247.0 blend=1.0 mode=follow tgt=8 dist=300 h=120 lead=300 fov=95 lag=0.85 wide=70
+# waiting at the own base (fast forward): high overview
+start=260.4 blend=1.5 mode=orbit tgt=8 r=240 h=140 a0=90 w=25 lag=0.88 fov=95 wide=70
+start=268.4 blend=1.2 mode=follow tgt=8 dist=280 h=110 lead=250 fov=95 lag=0.85 wide=70
+# capture 2 the moment our flag is back
+start=270.9 blend=0.9 mode=orbit tgt=8 r=250 h=90 a0=300 w=-35 lag=0.85 fov=95 wide=70
+# circle over the blue flag base
+start=272.4 blend=1.6 mode=orbit p=-1270,-1788,200 r=260 h=190 a0=40 w=20 lag=0.88 fov=95 wide=70

@@ -1,0 +1,25 @@
+# ONE TAKE II - DemosArchive13\CTF-w00tabulousFixed_12-06_01-36-16.dem, 254.2 .. 287.0. YourNick = 7.
+# Flight 1 (256.4-258.3) lands, kill 258.12, dies 258.7. Respawn 259.92, flight 2 (260.2-263.1, slow mo at the apex),
+# chain 265.43 Double .. 266.76 Multi .. 268.14 Mega .. 268.84 ULTRA .. 270.33 MONSTER .. 271.53 LUDICROUS ..
+# 272.84 / 274.69 (x2, slow mo) / 276.07 HOLY SHIT, killed 279.79, respawn ~280.9, flag 283.48, capture 284.03.
+start=254.2 blend=0 mode=follow tgt=7 dist=300 h=110 lead=250 fov=95 lag=0.85
+# flight 1: wide and to the side
+start=256.3 blend=0.8 mode=follow tgt=7 dist=420 h=170 side=170 lead=450 fov=100 lag=0.8
+start=258.0 blend=0.5 mode=follow tgt=7 dist=280 h=100 lead=200 fov=95 lag=0.85
+start=258.75 blend=0.5 mode=orbit p=2014,284,-190 r=240 h=60 a0=120 w=30 lag=0.8 fov=90
+# respawn at the base: whip
+start=259.75 blend=0.5 whip=300 mode=follow tgt=7 dist=300 h=110 lead=250 fov=95 lag=0.85
+# flight 2: big wide side-on shot from the other side, apex in slow motion
+start=260.3 blend=0.9 mode=follow tgt=7 dist=460 h=210 side=-230 lead=500 fov=100 lag=0.8
+start=262.9 blend=0.8 mode=follow tgt=7 dist=280 h=100 lead=200 fov=95 lag=0.85
+# mid chain: circle him
+start=268.0 blend=1.0 mode=orbit tgt=7 r=300 h=120 a0=200 w=26 lag=0.85 fov=95
+# low and close for the double HOLY SHIT in slow motion
+start=272.4 blend=1.0 mode=follow tgt=7 dist=240 h=55 side=80 lead=250 fov=100 lag=0.85
+# aftermath: pull up and back over the gibs
+start=276.3 blend=1.2 mode=follow tgt=7 dist=380 h=200 lead=200 fov=95 lag=0.88
+start=279.8 blend=0.5 mode=orbit p=1814,209,-180 r=240 h=60 a0=0 w=30 lag=0.8 fov=90
+# respawn: whip, run to the dropped flag, capture
+start=280.85 blend=0.5 whip=-300 mode=follow tgt=7 dist=280 h=100 lead=200 fov=95 lag=0.85
+start=283.2 blend=0.8 mode=follow tgt=7 dist=260 h=80 side=100 lead=250 fov=95 lag=0.85
+start=284.2 blend=2.2 mode=dolly p=-1120,-160,0 p2=-1020,-320,520 at=-1330,30,-90 dur=3 fov=90 lag=0.85

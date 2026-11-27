@@ -1,0 +1,32 @@
+{
+  "take": "take.mp4",
+  "takeNo": 3,
+  "start": 416.8,
+  "ramp": "430.9:1,431.4:3,443.2:3,443.7:1,457.95:1,458.1:0.2,458.5:0.2,458.8:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Mech8.wav",
+    "dropAt": 92.903,
+    "dropOnDemo": 458.3,
+    "pullFrom": 457.3,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 423.33, "text": "LUDICROUS KILL", "sub": "THREE IN ONE COMBO", "dur": 1.9},
+    {"t": 425.54, "text": "HOLY SHIT", "dur": 1.5},
+    {"t": 430.29, "text": "16 KILLS", "sub": "IN 12.8 SECONDS", "dur": 2.4},
+    {"t": 444.51, "text": "QUAD KILL", "sub": "ONE COMBO", "dur": 1.8},
+    {"t": 458.3, "delay": 0.05, "text": "MOVING COMBO", "sub": "FOUR KILLS", "big": true, "dur": 2.6},
+    {"t": 460.64, "text": "ULTRA KILL", "dur": 1.6},
+    {"t": 462.65, "text": "MONSTER KILL", "dur": 1.6},
+    {"t": 468.59, "text": "LUDICROUS KILL", "sub": "WITH THE FLAG", "dur": 1.2},
+    {"t": 469.81, "text": "HOLY SHIT", "dur": 1.5},
+    {"t": 473.12, "text": "15 KILLS", "sub": "IN 14.9 SECONDS", "dur": 2.4}
+  ],
+  "endcard": [
+    ["ONE TAKE III", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-CRATES2022   ·   20 PLAYERS   ·   35 KILLS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

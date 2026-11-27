@@ -1,0 +1,30 @@
+{
+  "take": "take.mp4",
+  "takeNo": 6,
+  "start": 994.2,
+  "ramp": "1000.55:1,1000.75:0.25,1001.15:0.25,1001.4:1",
+  "gameVol": 0.6,
+  "endHold": 4.5,
+  "music": {
+    "file": "music/Suprfist.wav",
+    "dropAt": 35.07,
+    "dropOnDemo": 1011.26,
+    "pullFrom": 1010.4,
+    "vol": 0.85
+  },
+  "captions": [
+    {"t": 994.6, "text": "RESPAWN", "sub": "CTF-BOLT", "dur": 1.8},
+    {"t": 1000.81, "delay": 0.25, "text": "MOVING COMBO", "sub": "700 UU ACROSS, 250 DOWN", "dur": 2.6},
+    {"t": 1002.22, "text": "FLAG TAKEN", "dur": 1.8},
+    {"t": 1009.04, "text": "CLEARING THE WAY", "dur": 1.6},
+    {"t": 1011.26, "text": "CAPTURE", "sub": "ON A KILLING SPREE", "big": true, "dur": 2.6},
+    {"t": 1020.13, "text": "DOUBLE BACK", "sub": "FOR THE FLAG AGAIN", "dur": 2.2},
+    {"t": 1028.4, "text": "FLAG TAKEN", "sub": "AGAIN", "dur": 1.8},
+    {"t": 1036.84, "text": "CAPTURE", "sub": "25 SECONDS LATER", "big": true, "dur": 2.6}
+  ],
+  "endcard": [
+    ["ONE TAKE VI", 170, true, [255, 255, 255, 255], 18],
+    ["YOURNICK", 54, true, [225, 205, 255, 255], 14],
+    ["CTF-BOLT_HE   ·   2 CAPTURES   ·   0 DEATHS   ·   0 CUTS", 32, false, [200, 190, 220, 255], 8]
+  ]
+}

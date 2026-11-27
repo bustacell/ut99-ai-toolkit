@@ -1,0 +1,19 @@
+# per-user / generated
+config.json
+runtime/
+output/
+logs/
+recordings/
+music/
+backups/
+assets/
+*.blend
+*.blend1
+__pycache__/
+*.pyc
+*.mp4
+*.mkv
+*.dem
+
+# private terms for tools/check_private.py (never commit)
+private-terms.txt

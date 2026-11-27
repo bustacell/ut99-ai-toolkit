@@ -1,0 +1,14 @@
+[
+ {"key": "pd",          "map": "CTF-PD",                 "demo": "CTF-PD_10-29_00-58-36.dem",                 "t": 350.54},
+ {"key": "washme",      "map": "CTF-washme-beta3",       "demo": "CTF-washme-beta3_02-06_01-55-35.dem",       "t": 1029.77, "name": "WASHME"},
+ {"key": "bloxeh",      "map": "CTF-Bloxeh-MuttzEd",     "demo": "CTF-Bloxeh-MuttzEd_09-21_23-22-23.dem",     "t": 179.27, "name": "BLOXEH", "song": "Seeker"},
+ {"key": "dukuredux",   "map": "CTF-DukuReduxB1",        "demo": "CTF-DukuReduxB1_01-09_23-49-09.dem",        "t": 92.7, "name": "DUKU REDUX",
+  "hide": [[0.0, 2.6, [0, 0, 460, 78]], [0.0, 2.6, [770, 192, 1150, 236]]]},
+ {"key": "ovaltech",    "map": "CTF-2on2-OvalTech-RSA",  "demo": "CTF-2on2-OvalTech-RSA_10-10_00-52-55.dem",  "t": 200.2, "name": "OVALTECH", "song": "Mech8"},
+ {"key": "w00tabulous", "map": "CTF-w00tabulousFixed",   "demo": "CTF-w00tabulousFixed_12-29_00-26-11.dem",   "t": 415.59, "name": "W00TABULOUS"},
+ {"key": "liandridocks","map": "CTF-LiandriDocks",       "demo": "CTF-LiandriDocks_07-07_00-26-00.dem",       "t": 444.61, "name": "LIANDRI DOCKS"},
+ {"key": "deck16",      "map": "DM-Deck16][",            "demo": "DM-Deck16][_11-01_20-31-03.dem",            "t": 78.5},
+ {"key": "crates2022",  "map": "CTF-2on2-Crates2022",    "demo": "CTF-2on2-Crates2022_11-06_23-32-45.dem",    "t": 400.4, "name": "CRATES 2022"},
+ {"key": "bolt",        "map": "CTF-Bolt_HE",            "demo": "CTF-Bolt_HE_10-15_22-43-53.dem",            "t": 726.81, "name": "BOLT",
+  "hide": [[0.0, 3.1, [0, 0, 460, 78]], [0.0, 3.1, [770, 192, 1150, 236]], [0.0, 3.1, [690, 258, 1230, 310]]]}
+]

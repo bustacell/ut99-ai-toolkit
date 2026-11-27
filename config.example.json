@@ -1,0 +1,10 @@
+{
+  "player": "YourNick",
+  "utRoot": "..\\UT99",
+  "demoDirs": ["..\\UT99\\Demos"],
+  "obsDir": "..\\OBS\\bin\\64bit",
+  "obsPortable": true,
+  "binDirs": ["..\\ffmpeg\\bin", "..\\python"],
+  "blender": "..\\blender\\blender.exe",
+  "assetsDir": "assets\\ut"
+}

@@ -1,0 +1,65 @@
+# Public edition only (copied in by tools/export_public.py): every push to main (= every export) publishes the whole
+# repository as one ZIP release, for people who don't want to clone.
+name: Release ZIP
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-zip
+  cancel-in-progress: false
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Build ZIP and publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          name="${GITHUB_REPOSITORY#*/}"
+          sha=$(git rev-parse --short=7 HEAD)
+          day=$(date -u +%Y-%m-%d)
+          tag="v$(date -u +%Y.%m.%d)-$sha"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "release $tag already exists"; exit 0
+          fi
+          zip="$name-$day-$sha.zip"
+          git archive --format=zip --prefix="$name/" -o "$zip" HEAD
+          prev=$(git tag --list 'v*' --sort=-creatordate | head -n 1)
+          # release notes = body of the export commit (written by tools/export_public.py: what changed, in words)
+          body=$(git log -1 --format=%b HEAD | sed -e '/^Co-Authored-By:/d')
+          {
+            if [ -n "$body" ]; then
+              printf '%s\n' "$body"
+            else
+              echo "Maintenance update."
+            fi
+            echo
+            echo "### Download"
+            echo
+            echo "\`$zip\` below: unzip it anywhere (keep the path short, e.g. \`C:\\UTDD\`) and follow the README."
+            echo "To get updates later, download the newest release or clone the repository."
+            echo "No game content is included: you need your own copy of Unreal Tournament (1999) with the OldUnreal 469 patch."
+            if [ -n "$prev" ]; then
+              echo
+              echo "<details><summary>Files changed since $prev</summary>"
+              echo
+              echo '```'
+              git diff --stat=100,70 "$prev" HEAD | tail -n 60
+              echo '```'
+              echo "</details>"
+            fi
+          } > notes.md
+          gh release create "$tag" "$zip" --title "UT99 AI Toolkit $day ($sha)" --notes-file notes.md \
+            --target "$GITHUB_SHA" --latest
