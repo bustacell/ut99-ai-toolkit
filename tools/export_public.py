@@ -19,7 +19,11 @@ Release notes: the commit body lists what changed since the previous export, one
 or direct commit, taken from this repository's first-parent history between the private commit named in the last
 "Export <hash>" commit and HEAD. The public release workflow (public/overlay/.github/workflows/release.yml) puts
 that body on the release page. --notes-file FILE replaces the generated list with hand-written Markdown. The notes
-are privacy-checked like the files; PR numbers of this private repository are not included.
+are privacy-checked like the files; PR numbers of this private repository are not included (GitHub's squash
+merges end the subject with "(#N)": that is cut, it would point to an unrelated issue of the public repository).
+
+Version numbers: the release workflow tags each export vMAJOR.MINOR.PATCH. It bumps the minor number unless the
+export commit carries a "Release-Bump: patch" or "Release-Bump: major" trailer (--bump patch|major here).
 """
 import argparse, fnmatch, os, re, shutil, subprocess, sys
 
@@ -88,6 +92,7 @@ def change_titles(prev):
                 continue
         else:
             title = subject
+        title = re.sub(r"\s*\(#\d+\)$", "", title)                     # private PR numbers mean nothing publicly
         if title and title not in out and not title.startswith("Export "):
             out.append(title)
     return out
@@ -121,6 +126,8 @@ def main():
     ap.add_argument("--commit", action="store_true")
     ap.add_argument("--message")
     ap.add_argument("--notes-file", help="hand-written release notes (Markdown) instead of the generated list")
+    ap.add_argument("--bump", choices=["major", "minor", "patch"], default="minor",
+                    help="which part of the version number the release raises (default: minor)")
     a = ap.parse_args()
     tgt = os.path.abspath(a.target)
     if os.path.normcase(tgt).startswith(os.path.normcase(ROOT + os.sep)) or os.path.normcase(tgt) == os.path.normcase(ROOT):
@@ -197,6 +204,8 @@ def main():
             return
         # the subject always starts with "Export <hash>": the next export finds its starting point there
         msg = [f"Export {head}" + (f": {a.message}" if a.message else "")] + (["-m", notes] if notes else [])
+        if a.bump != "minor":
+            msg += ["-m", f"Release-Bump: {a.bump}"]                    # a trailer: the release workflow reads it
         git("commit", "-q", "--no-verify", "-m", *msg, cwd=tgt)
         print(git("log", "--oneline", "-1", cwd=tgt).strip())
         print(notes or "(no release notes: first export, or nothing new)")

@@ -28,17 +28,27 @@ jobs:
         run: |
           set -euo pipefail
           name="${GITHUB_REPOSITORY#*/}"
-          sha=$(git rev-parse --short=7 HEAD)
-          day=$(date -u +%Y-%m-%d)
-          tag="v$(date -u +%Y.%m.%d)-$sha"
-          if gh release view "$tag" >/dev/null 2>&1; then
-            echo "release $tag already exists"; exit 0
+          if [ -n "$(git tag --points-at HEAD --list 'v*')" ]; then
+            echo "HEAD is already released"; exit 0
           fi
-          zip="$name-$day-$sha.zip"
+          # version numbers: vMAJOR.MINOR.PATCH; the minor number goes up unless the export commit carries a
+          # "Release-Bump: patch|major" trailer (tools/export_public.py --bump)
+          prev=$(git tag --list 'v*' | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n 1 || true)
+          bump=$(git log -1 --format='%(trailers:key=Release-Bump,valueonly)' HEAD | tr -d '[:space:]')
+          if [ -z "$prev" ]; then
+            tag="v1.0.0"
+          else
+            IFS=. read -r ma mi pa <<< "${prev#v}"
+            case "$bump" in
+              major) tag="v$((ma + 1)).0.0" ;;
+              patch) tag="v$ma.$mi.$((pa + 1))" ;;
+              *)     tag="v$ma.$((mi + 1)).0" ;;
+            esac
+          fi
+          zip="$name-$tag.zip"
           git archive --format=zip --prefix="$name/" -o "$zip" HEAD
-          prev=$(git tag --list 'v*' --sort=-creatordate | head -n 1)
           # release notes = body of the export commit (written by tools/export_public.py: what changed, in words)
-          body=$(git log -1 --format=%b HEAD | sed -e '/^Co-Authored-By:/d')
+          body=$(git log -1 --format=%b HEAD | sed -e '/^Co-Authored-By:/d' -e '/^Release-Bump:/d')
           {
             if [ -n "$body" ]; then
               printf '%s\n' "$body"
@@ -61,5 +71,5 @@ jobs:
               echo "</details>"
             fi
           } > notes.md
-          gh release create "$tag" "$zip" --title "UT99 AI Toolkit $day ($sha)" --notes-file notes.md \
+          gh release create "$tag" "$zip" --title "UT99 AI Toolkit $tag" --notes-file notes.md \
             --target "$GITHUB_SHA" --latest
