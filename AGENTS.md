@@ -18,8 +18,12 @@ The most important rules, in short (CLAUDE.md has the full list and the reasons)
 Workflows (skills):
 - **Frag movie from demos:** `.agents/skills/frag-movie/SKILL.md` (Codex) points to the shared workflow in
   `.claude/skills/frag-movie/SKILL.md`, so both agents follow the same steps.
-- **Blender films, map generation and the other film formats:** the README sections and `docs/` (start with
-  `docs/HANDOVER.md` for the game side, `docs/BLENDER.md`, `docs/MAPGEN.md`).
+- **Blender studio (scenes, shorts and map showcases from UT's own assets):** `.agents/skills/blender-studio/SKILL.md`
+  points to `.claude/skills/blender-studio/SKILL.md` (built on `docs/BLENDER.md`).
+- **Map generation (maps from code, builds, screenshots, bot playtests):** `.agents/skills/mapgen/SKILL.md` points to
+  `.claude/skills/mapgen/SKILL.md` (built on `docs/MAPGEN.md`).
+- Everything else (the other film formats) is in the README sections and `docs/`; start with `docs/HANDOVER.md` for
+  the game side.
 
 Checks you can run without the game: `python -m unittest discover -s tests -v`, `pwsh -File tests/Test-PowerShell.ps1`
 and `python tools/check_private.py --all` (in a Git checkout). Before a long scan or render, run the read-only

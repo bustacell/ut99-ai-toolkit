@@ -9,6 +9,8 @@ scripted screenshots and bot playtests. Proven twice:
   team stelae with the CTF emblems, trims and cornices, torches with coronas, a low sun with long shadows, plants,
   and a Blender-rendered skybox (mountain valley at dusk with alpenglow and a rising moon). Bots play CTF on it.
 
+With Claude Code, `/mapgen` (`.claude/skills/mapgen/SKILL.md`) walks through this workflow step by step.
+
 ## Pipeline
 
 ```powershell

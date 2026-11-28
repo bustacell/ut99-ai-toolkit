@@ -12,6 +12,7 @@ For a dramatic Deck16 scene with a reproducible teaser and production notes, see
 For a UHD channel film with grounded bot animation, stock weapon effects and a 65-shot edit, see [APOGEE](APOGEE.md).
 
 Everything here runs headless. You (or your AI) write Python and look at probe renders. You never need to open the Blender UI.
+With Claude Code, `/blender-studio` (`.claude/skills/blender-studio/SKILL.md`) walks through this workflow step by step.
 
 ## 1. Setup
 

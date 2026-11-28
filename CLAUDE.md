@@ -2,8 +2,9 @@
 
 An AI toolkit for Unreal Tournament 99 with three modules: the Demo Director (the user's demos -> cinematic,
 music-synced frag movies), the Blender studio (scenes rendered from UT's own assets) and map generation (maps from
-code, `docs/MAPGEN.md`). The Demo Director workflow is the `/frag-movie` skill
-(`.claude/skills/frag-movie/SKILL.md`). `docs/HANDOVER.md` has the architecture and ~30 traps already solved; check it
+code, `docs/MAPGEN.md`). Each module is a skill: the Demo Director workflow is `/frag-movie`
+(`.claude/skills/frag-movie/SKILL.md`), the Blender studio is `/blender-studio` (`.claude/skills/blender-studio/`)
+and map generation is `/mapgen` (`.claude/skills/mapgen/`). `docs/HANDOVER.md` has the architecture and ~30 traps already solved; check it
 before debugging. Settings (nickname, UT folder, demo folders, OBS, portable tool folders) are in `config.json`,
 which `setup/Setup.ps1` creates. Scripted scenes rendered in Blender from UT's own assets (skits, taunt movies,
 demo moments with free cameras) are in `tools/blender/`; read `docs/BLENDER.md` first. Headless Linux notes,

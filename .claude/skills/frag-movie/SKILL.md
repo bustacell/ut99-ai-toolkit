@@ -10,7 +10,8 @@ UT's own soundtrack. Read `CLAUDE.md` (rules) first. `docs/HANDOVER.md` lists ~3
 check it before debugging anything. Talk to the user in plain words: they may not be technical.
 
 If the user wants something the game can't film (scripted skits, taunt movies, characters talking or staring into the
-camera, a demo moment rebuilt with free cameras), use the Blender pipeline instead: read `docs/BLENDER.md`. Pitch the
+camera, a demo moment rebuilt with free cameras), use the Blender pipeline instead: the `/blender-studio` skill
+(`.claude/skills/blender-studio/SKILL.md`) and `docs/BLENDER.md`. Pitch the
 idea first, then follow its workflow: scout, low-res probe sheets per scene, a draft assembly, and only then the long
 render. On a headless Linux box, also read `docs/LINUX.md`, `docs/LINUX-FINDINGS.md`, `docs/LVPS-VOL2-FINDINGS.md`, `docs/LVPS-VOL3-FINDINGS.md`, `docs/LVPS-VOL4-FINDINGS.md` and `docs/LVPS-VOL4-WINDOWS.md`
 (Cycles on CPU, case-sensitive texture names, the Literal Voice Pack skits). A bot yearbook (portraits, pages, a music-synced showcase) is `docs/BOT-YEARBOOK-FINDINGS.md`. 9:16 Shorts from that yearbook are `docs/BOT-YEARBOOK-SHORTS.md`. UT content stays on the user's machine.

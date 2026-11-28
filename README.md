@@ -20,15 +20,15 @@ also works with **Codex** (`AGENTS.md`, same workflow), and every step also runs
 | Module | What it does | Start here |
 |---|---|---|
 | **Demo Director** | Plays your `.dem` files in the real game, finds the best moments, films them with scripted cameras, records with OBS and cuts a frag movie to UT's own soundtrack. Film formats: beat-synced highlights, bullet time, one-take, headshots, making-of documentaries. | [below](#demo-director-frag-movies-from-your-demos), `/frag-movie` |
-| **Blender studio** | Extracts maps, character meshes, animations, skins, voices and music from your install and renders scripted scenes: skits, animated shorts, trailers, hologram and miniature map showcases, thumbnails and 9:16 Shorts. | [Blender pipeline](#blender-pipeline-scripted-scenes-from-ut-assets), [docs/BLENDER.md](docs/BLENDER.md) |
-| **Map generation** | Designs UT99 maps in Python, builds them without the UnrealEd GUI and checks them with scripted screenshots and bot playtests. | [Map generation](#map-generation-maps-from-code), [docs/MAPGEN.md](docs/MAPGEN.md) |
+| **Blender studio** | Extracts maps, character meshes, animations, skins, voices and music from your install and renders scripted scenes: skits, animated shorts, trailers, hologram and miniature map showcases, thumbnails and 9:16 Shorts. | [Blender pipeline](#blender-pipeline-scripted-scenes-from-ut-assets), [docs/BLENDER.md](docs/BLENDER.md), `/blender-studio` |
+| **Map generation** | Designs UT99 maps in Python, builds them without the UnrealEd GUI and checks them with scripted screenshots and bot playtests. | [Map generation](#map-generation-maps-from-code), [docs/MAPGEN.md](docs/MAPGEN.md), `/mapgen` |
 
 Each module documents the traps that were already solved (`docs/`), so an agent doesn't have to find them again.
 No game content is included: the tools read it from your own UT install at run time.
 
 **Get it:** download the ZIP of the latest release (unzip anywhere), or clone the repository if you want updates
 and to contribute. With Claude Code, open the folder and ask, e.g. `/frag-movie` or "render a Blender skit on
-DM-Deck16][".
+DM-Deck16][". Each module is a skill: `/frag-movie`, `/blender-studio` and `/mapgen`.
 
 ## Demo Director: frag movies from your demos
 
@@ -121,9 +121,17 @@ changing anything outside this folder and the game/OBS folders. You decide the c
 - kill messages, crosshair, name tags
 - camera style, music, length
 
-**With Codex** (OpenAI): open the folder as a Codex project and ask for a frag movie. Codex reads
-[AGENTS.md](AGENTS.md) and the skill in `.agents/skills/frag-movie/`, which point to the same rules (`CLAUDE.md`) and
-the same workflow as Claude Code, so both stay in sync.
+The other two modules are skills too:
+- `/blender-studio` ([.claude/skills/blender-studio/SKILL.md](.claude/skills/blender-studio/SKILL.md)): asset
+  extraction, pitch, scouting, probe sheets, style frames and animatics before the long render, assembly and review,
+  for skits, animated shorts, demo moments with free cameras, hologram and miniature map showcases.
+- `/mapgen` ([.claude/skills/mapgen/SKILL.md](.claude/skills/mapgen/SKILL.md)): a map written as code, built with
+  `ucc`, checked with screenshots, bot playtests, frame-rate checks and wall-safe flythroughs, tuned with numbers from
+  your demo scans, and packaged for release.
+
+**With Codex** (OpenAI): open the folder as a Codex project and ask for a frag movie, a Blender scene or a map.
+Codex reads [AGENTS.md](AGENTS.md) and the skills in `.agents/skills/` (`frag-movie`, `blender-studio`, `mapgen`),
+which point to the same rules (`CLAUDE.md`) and the same workflows as Claude Code, so both stay in sync.
 
 ## Manual use
 
