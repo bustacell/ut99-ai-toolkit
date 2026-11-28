@@ -38,6 +38,7 @@ def opt(name, n, default):
     return default
 
 
+VANISH = "--vanish" in args     # combo shot: the victims flare, burst into shards and are gone once the blast hit
 RES = opt("--res", 2, [1920, 1080])
 SAMPLES = opt("--samples", 1, [8])[0]
 FR = opt("--frames", 2, [0, -1])
@@ -351,6 +352,13 @@ class Track:
                             return None
                         return p
                 return Vector(run[-1][1:4])
+            # the demo's last sample of a dying player comes up to ~0.4 s before the death event: without this the
+            # victim vanished just BEFORE the combo hit. Carry it on along its last velocity until it really dies.
+            last = run[-1]
+            for d in self.deaths:
+                at_combo = abs(d - T_COMBO) <= 0.2           # killed by the combo: stays in place while time stands still
+                if last[0] < t and (t <= d or at_combo) and d - last[0] < 0.8:
+                    return Vector(last[1:4]) + Vector(last[5:8]) * (min(t, d) - last[0])
         return None
 
 
@@ -496,6 +504,20 @@ bsp.points.add(1)
 bm.materials.append(emit("beam", ENERGY, 1.0))
 beam = bpy.data.objects.new("beam", bm)
 sc.collection.objects.link(beam)
+# --vanish: shards that fly out of each victim when it is hit (fixed directions, so every frame agrees)
+N_SHARD = 16
+shards = {}
+if VANISH:
+    for vp in players:
+        if vp.tr.pid in VICTIMS:
+            dirs = []
+            for i in range(N_SHARD):
+                z = 1 - 2 * (i + 0.5) / N_SHARD
+                r = math.sqrt(max(0.0, 1 - z * z))
+                a_ = i * 2.39996
+                dirs.append(Vector((r * math.cos(a_), r * math.sin(a_), z)))
+            shards[vp.tr.pid] = [(sphere(f"sh{vp.tr.pid}_{i}", 0.13, emit(f"sh{vp.tr.pid}", WHITE, 2.0), seg=8), d)
+                                 for i, d in enumerate(dirs)]
 cam = bpy.data.objects.new("cam", bpy.data.cameras.new("cam"))
 cam.data.sensor_width = 36
 cam.data.clip_start, cam.data.clip_end = 0.3, 2000
@@ -551,6 +573,24 @@ for f in range(a, b, STEP):
         blast.location = u2b(COMBO)
         s = 0.6 + 2.9 * (1 - (1 - min(1.0, k)) ** 3)
         blast.scale = (s, s, s)
+    for vp in players:                                    # --vanish: flare, burst, gone (k = 1: blast at full size)
+        if vp.tr.pid not in shards:
+            continue
+        kv = (k - 1.0) / 0.6 if k >= 0 else -1.0
+        here = pos.get(vp.tr.pid)
+        vp.ob.scale = (1, 1, 1)
+        if kv >= 0 and here is not None:
+            vp.trail.hide_render = True
+            vp.ob.hide_render = kv >= 0.35
+            s = 1.0 + 1.2 * min(1.0, kv / 0.35)          # swells for a moment, then breaks apart
+            vp.ob.scale = (s, s, s)
+        for ob, d in shards[vp.tr.pid]:
+            ob.hide_render = not (0 <= kv < 1.6 and here is not None and kv >= 0.25)
+            if not ob.hide_render:
+                u_ = (kv - 0.25) / 1.35
+                ob.location = here + d * (0.5 + 3.2 * (1 - (1 - u_) ** 2))
+                s = max(0.05, 1.0 - u_)
+                ob.scale = (s, s, s)
     beam.hide_render = not (k >= 0 and pos.get(HERO) is not None)
     if not beam.hide_render:
         h, c = pos[HERO], u2b(COMBO)
